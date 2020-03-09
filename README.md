@@ -3,7 +3,7 @@ A Variety Discord Bot in Python based on Jill Stingray from Va-11 HALL-A.
 
 # Setup
 1. You need a Discord app. [Create one here](https://discordapp.com/developers/applications). Then you just put the token in, well, a token variable.
-2. If you want the full functionality (eg. reddit, imgur) you'd need to create apps for them respectively and put tokens in designated spaces (like `"client_id_here"`).  If not, then you can just remove the code/commands from the source, so you don't get any errors.
+2. If you want the full functionality (eg. reddit) you'd need to create apps for them respectively and put tokens in designated spaces (like `"client_id_here"`).  If not, then you can just remove the code/commands from the source, so you don't get any errors.
 
 # Commands and functionality
 All commands start with `%`. To see the command list just use `%cmd`.
@@ -12,7 +12,7 @@ All commands start with `%`. To see the command list just use `%cmd`.
 * redd <subreddit> - posts a submission in similar manner as earlier commands, but from a subreddit provided by user.
 * catfact - gets a random cat fact
 * dice <number> - "throws" a number-sided dice.
-* zalgo <text> - turns your text into ť̪̥ē̘̫x̨̞̗t̗̓̕
+* zalgo <text> - turns your text into ť̪̥ē̘̫x̨̞̗t̗̓̕
 * bob <text> - turns your text into TeXt like in a Spongebob meme.
 * gdziejestgrzegorz - posts a link to a random location on Google Maps.
 * xkcd - posts a random xkcd comic.
