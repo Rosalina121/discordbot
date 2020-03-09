@@ -304,11 +304,6 @@ async def kira():
         kira_counter += 1
 
 
-@client.command()
-async def czywontreswkurwia():
-    await client.say("Tak.")
-
-
 emoji_list = ['😃', '🍆', '💦', '💩', '💯', '💠', '🌚']
 votes_list = [0, 0, 0, 0, 0, 0, 0]
 options = []
