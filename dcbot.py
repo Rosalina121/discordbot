@@ -9,11 +9,6 @@ from discord.ext.commands import Bot
 from PIL import ImageFont
 from PIL import Image
 from PIL import ImageDraw
-import pyimgur
-
-CLIENT_ID = "client_id_here"
-PATH = "tvp_out.png"
-im = pyimgur.Imgur(CLIENT_ID)
 
 q = lambda z: u''.join(
     [v + u''.join(choice(u''.join(map(chr, range(768, 815)))) for i in range(int(normalvariate(10, 5)))), v][
@@ -411,9 +406,8 @@ async def tvp(*args):
     draw = ImageDraw.Draw(im1)
 
     im1.save("tvp_out.png")
-    uploaded_image = im.upload_image(PATH, title=temp)
 
-    await client.say(uploaded_image.link)
+    await client.upload("tvp_out.png")
 
 
 @client.command()
