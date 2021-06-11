@@ -32,6 +32,6 @@ scipy==1.1.0
 six==1.11.0
 update-checker==0.16
 urllib3==1.22
-websockets==5.0.1
+websockets==9.1
 xkcd==2.4.2
 yarl==1.2.4
