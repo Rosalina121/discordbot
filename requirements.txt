@@ -15,7 +15,7 @@ kiwisolver==1.0.1
 matplotlib==2.2.2
 multidict==4.3.1
 networkx==2.1
-numpy==1.14.3
+numpy==1.22.0
 Pillow==5.1.0
 praw==5.4.0
 prawcore==1.0.0
